@@ -78,10 +78,6 @@ def course(message):
 def trans(message):
     bot.send_message(message.chat.id, text="Ваш запрос отправлен Совету. Ожидайте ответа!")
 
-#def other(message):
-#    bot.send_message(message.chat.id, text="Ваш запрос отправлен Совету. Ожидайте ответа!")
-
-
 
 bot.polling(none_stop=True)
 
